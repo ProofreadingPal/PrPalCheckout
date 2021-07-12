@@ -1,0 +1,246 @@
+.checkoutStep {
+    text-align: center;
+    float:left;
+    padding: 0 26px;
+    position: relative;
+    z-index: 1;
+	opacity: .7;
+}
+.stepCircle {
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    background-color: #b7b7b7;
+    border: 3px solid #fff;
+    z-index: 1;
+    position: relative;
+}
+.checkoutStepActive, .checkoutStepDone {
+	opacity: 1;	
+}
+.checkoutStepActive .stepCircle {
+    background-color: #3c82b5;
+}
+.checkoutStepActive {
+    font-weight: bold;
+    color: #3c82b5;
+}
+.stepLine {
+    height: 1px;
+    overflow: hidden;
+    width: 100%;
+    background-color: #b7b7b7;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left:0;
+    z-index: 0;
+}
+#checkoutStep1 .stepLine {
+    left:auto;
+    right: 0;
+    width: 50%;
+}
+#checkoutStep5 .stepLine, #checkoutStep4Cor .stepLine {
+    width: 50%;
+}
+.stepTitle {
+    display: block;
+    text-align: center;
+}
+.rightBlock {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.formBlockCheckout {
+    max-width: 100%;
+    padding: 0;
+}
+.guaranteeRight {
+    text-align: center;
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    padding: 17px 0;
+}
+.secureRight #siteseal, .secureRight #siteseal img, .secureRight .mcafeeRight, .secureRight .mcafeeRight img {
+    vertical-align: middle;
+    display: inline-block;
+}
+.checkoutHeading {
+    padding: 20px 30px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.checkoutInfo p {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    color: #414141;
+}
+.checkoutTotal {
+    color: #3c82b5;
+    font-weight: bold;
+}
+.checkoutFormHolder {
+    padding: 20px 30px;
+}
+.speedsSelect h4 {
+    font-size: 22px;
+    font-weight: normal;
+    margin: 0;
+}
+.turnaroundsBlock h3 {
+    font-size: 16px;
+    margin: 0 0 20px 0;
+}
+.speedsSelect h5 {
+    margin: 10px 0;
+}
+.selectRow {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px 6px;
+    cursor: pointer;
+}
+.selectRow:hover {
+    background: #f8fafc;
+} 
+.selectRow * {
+    line-height: 20px;
+}
+.selectRowSelected {
+    background: #f8fafc;
+}
+.selectRow .left, .selectRow .right {
+    margin: 0;
+}
+.selectRow i {
+    line-height: 10px;
+    font-size: 11px;
+    top: -2px;
+    position: relative;
+}
+.formWritingStyleAlert {
+    background: #F5F1EA;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #E7DBC6;
+}
+#closeWordsBox {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.formBlockCheckout .formTextarea {
+    width: 100%;
+}
+.checkoutValidation {
+   padding: 20px 30px 0 30px; 
+}
+.checkoutValidationBottom {
+   padding: 0 30px 20px 30px; 
+}
+.checkoutTotalRight {
+    background-color: #fff;
+    padding: 30px 30px 15px 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+}
+.rightSubTotalTitle {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.containerSub .rightSubTotalTitle {
+    padding-left: 20px;
+}
+.rightSubTotalAmount {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+.rightSubAmount {
+    font-size: 16px;
+    font-weight: bold;
+}
+.rightTotalTitle {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.rightTotalAmount {
+    font-size: 22px;
+    font-weight: bold;
+}
+#dvToalAmount {
+    clear: both;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.clearAll {
+    clear:both;
+}
+.birthdayField .formText {
+    width: 60px;
+}
+#step4Data .formHeader {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+#step4Data .formRow, .step5Table td {
+    border-bottom: 1px solid #e6e6e6;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.containerSubIn {
+    padding-left: 30px;
+}
+.flatRateSpan {
+    color: red;
+}
+.flatRateRed {
+   color: red; 
+}
+.flatOption .rightPrice {
+	text-decoration:line-through;	
+}
+.tipHeadstep5 {
+    margin-bottom: 20px;
+}
+.qualContr_Msg{background:#ffffff url(../imgs/star1.png) 7px 1px no-repeat;border:1px solid #e87b17;margin-top:15px;padding:2px 4px 6px 35px;line-height: 16px;}
+.holiday_Msg{background:#f3f9fd url(../imgs/holiday1.png) 7px 13px no-repeat;border:1px solid #3c82b5;margin-top:15px;padding:20px 35px 20px 35px;line-height: 16px;width:100%;box-sizing:border-box;margin-bottom:20px;font-size:13px;line-height:18px;}
+#holidayName{font-size:15px;padding-bottom:5px;margin-bottom:0;}
+#holiday_Msg{padding:10px;background:#fff;}
+.holidayOption{display:block;padding-top:7px;padding-left:15px;}
+span.qualityC_message {color: #e87b17;}
+.upsellMessage{background:#f3f9fd url(../imgs/upsell_image.png) 10px 5px no-repeat;border:1px solid #9ada30;float:left;margin-top:15px;padding:2px 3px 1px 33px;width:100%;box-sizing:border-box;}
+#overnightPop table{width:100%;border-collapse:collapse;border:none;margin-bottom:20px;}
+#overnightPop th{text-align:left;border-bottom:1px solid #878787;}
+#overnightPop td{text-align:left;border-bottom:1px solid #6e6e6e;}
+.registerPop {width:410px;padding:20px;position:absolute;left:50%;margin-left:-225px;background:#5d5d5d;color:#fff;z-index:111;}
+#overnightPop{position:fixed;top:100px;}
+.registerPop h3 {color:#fff;font-size:22px;margin-bottom:15px;line-height:25px;}
+.registerPop ul {margin-left:15px;margin-bottom:15px;color:#fff;}
+.registerPop ul li {color:#fff;}
+.registerPop ul li::before {color:#fff;}
+.registerPop .formText{border:none;}
+.registerPop .formLabel{font-weight:normal;}
+.emailregister{font-weight:bold;}
+.registerPop .formSubmit{background:#3c82b5;border:2px solid #1e6ba4;}
+.registerPop .formSubmit:hover{box-shadow:0px 0px 15px 0px #196298 inset;}
+.registerPop .formSubmitGray:hover{box-shadow:0px 0px 15px 0px #383838 inset;}
+.registerPop .formSubmitGray{border:2px solid #434343;background:#4d4d4d;}
+.popupBg{width:100%;height:100%;position:fixed;top:0;left:0;background:rgba(85,156,21,0.2);z-index:110;}
+
+@media only screen and (max-width: 750px) {
+    .checkoutStep {
+        padding: 0 10px;
+        font-size: 12px;
+        font-weight: normal;
+        width: 20%;
+    }
+}
